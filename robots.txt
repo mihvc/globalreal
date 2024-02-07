@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /auth.php
+Disallow: /reg.php
+Disallow: /header.php
+Disallow: /footer.php
+Allow: /*.css
+Allow: /*.js
+Sitemap: http:/globalreal.ru/sitemap.xml
+Host: globalreal.ru
