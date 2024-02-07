@@ -7,5 +7,5 @@ Disallow: /header.php
 Disallow: /footer.php
 Allow: /*.css
 Allow: /*.js
-Sitemap: http:/globalreal.ru/sitemap.xml
-Host: globalreal.ru
+Sitemap: https://globalreal.netlify.app/sitemap.xml
+Host: https://globalreal.netlify.app
