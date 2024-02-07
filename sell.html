@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/sell.css">
+    <title>Продать недвижимость</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="#" class="navbar-link js-open-modal" data-modal="1">Войти</a></li>
+                <li class="navbar-item"><a href="buy.html" class="navbar-link">Купить недвижимость</a></li>
+                <li class="navbar-item"><a href="index.html" class="navbar-link"><img src="img/kurslogo1.svg" alt=""></a></li>
+                <li class="navbar-item"><a href="sell.html" class="navbar-link">Продать недвижимость</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link">8(495)-777-90-09</a></li>
+            </ul>
+        </nav>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img class="slide-img" src="img/bg3.png">
+            </div>
+            <div class="mySlides fade">
+                <div class="bg-gray"></div>
+                <img class="slide-img up" src="img/bg2.jpg">
+            </div>
+            <div class="mySlides fade">
+                <div class="bg-gray"></div>
+                <img class="slide-img up" src="img/bg1.jpg">
+            </div>
+            <button onclick="plusSlides(-1)" class="prev">&#10094;</button>
+            <button onclick="plusSlides(1)" class="next">&#10095;</button>
+            <a href="#" class="js-open-modal" data-modal="1">Войти</a>
+            <div class="modal" data-modal="1">
+                <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                </svg>
+                <br>
+                <div class="google-enter">
+                    <div class="google-icon"><img class="google-logo" src="img/google.png" alt=""></div>
+                    <div class="google-text">Войти через Google</div>
+                </div>
+                <div class="enter-form">
+                    <div class="enter-voyti">Войти</div>
+                    <input class="input-modal" type="text" placeholder="Email">
+                    <input class="input-modal" type="text" placeholder="Пароль">
+                    <button class="btn-continue">Продолжить</button>
+                    <div class="reg-text"><a href="#" class="reg-text2">Зарегистрироваться</a></div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </header>
+    <div class="gen-title">
+        <h1 class="gen-title-text">Продать недвижимость</h1>
+        <div class="title-line"></div>
+    </div>
+    <div class="sell-cont">
+        <div class="sell-block">
+            <h2 class="block-title">Введите адрес</h2>
+            <input type="text" class="adress" placeholder="Введите улицу">
+        </div>
+        <div class="sell-block">
+            <h2 class="block-title">Выберите тип недвижимости</h2>
+            <div class="btns-sell">
+                <button class="style-btn">Квартира</button>
+                <button class="style-btn">Дом</button>
+                <button class="style-btn">Участок</button>
+                <button class="style-btn">Гараж</button>
+            </div>
+        </div>
+        <div class="sell-block">
+            <h2 class="block-title">Выберите цель</h2>
+            <button class="style-btn">Продажа</button>
+            <button class="style-btn">Аренда</button>
+        </div>
+        <div class="sell-block">
+            <h2 class="block-title">Добавьте фотографии</h2>
+            <input type="file" class="img-inp">
+        </div>
+        <div class="sell-block2">
+            <div class="row">
+                <h2 class="block-title">Количество комнат</h2>
+                <button class="radio">1</button>
+                <button class="radio">2</button>
+                <button class="radio">3</button>
+                <button class="radio">4</button>
+                <button class="radio">5+</button>
+            </div>
+            <div class="row">
+                <h2 class="block-title">Введите этаж</h2>
+               <input class="floor" type="text" placeholder="Этаж">
+            </div>
+        </div>
+        <div class="sell-block">
+            <h2 class="block-title">Общая площадь</h2>
+            <input type="text" class="adress" placeholder="Введите площадь">
+        </div>
+        <div class="sell-block">
+            <h2 class="block-title">Добавьте описание</h2>
+            <textarea class="discrip" placeholder="Описание"></textarea>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-nav">
+            <div class="footer-comp">
+                <div class="link-title">GlobalReal</div>
+                <a href="#" class="vkcom"><img src="img/vk.png" alt=""></a>
+                <a href="#" class="tgram"><img src="img/telegram.png" alt=""></a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col1">
+                    <div class="link-title">Поддержка</div>
+                    <a href="#" class="footer-link">Обратная связь</a>
+                    <a href="#" class="footer-link">Техническая поддержка</a>
+                </div>
+                <div class="footer-col1">
+                    <div class="link-title">Правила</div>
+                    <a href="#" class="footer-link">Условия использования</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">©2023 GlobalReal</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/slider2.js"></script>
+
+</body>
+
+</html>
