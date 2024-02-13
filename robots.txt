@@ -8,4 +8,4 @@ Disallow: /footer.php
 Allow: /*.css
 Allow: /*.js
 Sitemap: https://globalreal.netlify.app/sitemap.xml
-Host: https://globalreal.netlify.app
+Host: globalreal.netlify.app
