@@ -157,7 +157,7 @@ body {
 
 }
 
-.modal {
+/* .modal {
   visibility: hidden;
   width: 100%;
   max-width: 400px;
@@ -227,7 +227,7 @@ body {
   background: none;
   border: 1px solid black;
   padding-left: 20px;
-}
+} */
 
 .btn-continue {
   margin-top: 60px;
